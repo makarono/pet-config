@@ -1,0 +1,44 @@
+[[snippets]]
+  description = "git creates a new branch new-branch, based on existing-branch"
+  command = "git checkout -b NEW_BRANCH EXISTING_BRANCH"
+  output = ""
+
+[[snippets]]
+  description = "git create new empty branch and automatically checkout to it"
+  command = "git checkout -b amend-my-name"
+  output = ""
+
+[[snippets]]
+  description = "git brisanje brancha lokalno"
+  command = "git branch -D  master"
+  output = ""
+
+[[snippets]]
+  description = "git povlaci sve brancheve sa origina lokalno"
+  command = "git fetch origin"
+  output = ""
+
+[[snippets]]
+  description = "get local wifi ip"
+  command = "ip a | grep wlan0 | grep inet | awk '{print}'"
+  output = ""
+
+[[snippets]]
+  description = "git discard all changes if you dont want to commit"
+  command = "git checkout -- ."
+  output = ""
+
+[[snippets]]
+  description = "show process list"
+  command = "ps -ef"
+  output = ""
+
+[[snippets]]
+  description = "cli tool improved cat"
+  command = "https://github.com/sharkdp/bat"
+  output = ""
+
+[[snippets]]
+  description = "cli tool ls on steroids https://the.exa.website/"
+  command = "alias ls='exa'"
+  output = ""
